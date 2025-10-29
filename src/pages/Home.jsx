@@ -1,5 +1,6 @@
 import React from 'react'
 import ThemeToggle from "@/components/ThemeToggle.jsx"
+import StarBackground from "@/components/StarBackground.jsx"
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -8,7 +9,7 @@ export default function Home() {
       <ThemeToggle />
 
       {/* Background Effects */}
-
+      <StarBackground />
 
       {/* Navbar */}
 
@@ -19,7 +20,7 @@ export default function Home() {
       {/* Footer */}
 
 
-      
+
     </div>
   )
 }
