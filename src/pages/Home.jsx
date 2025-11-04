@@ -3,6 +3,9 @@ import ThemeToggle from "@/components/ThemeToggle.jsx"
 import StarBackground from "@/components/StarBackground.jsx"
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
+import SkillsSection from '../components/SkillsSection'
+import ProjectsSection from '../components/ProjectsSection'
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -17,8 +20,12 @@ export default function Home() {
       <Navbar />
 
       {/* Main Content */}
-      <HeroSection />
-
+      <main>
+        <HeroSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <ContactSection />
+      </main>
 
       {/* Footer */}
 
