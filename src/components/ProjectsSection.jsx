@@ -8,7 +8,7 @@ const projects = [
     description:
       "Developed a full-stack payroll system for automated salary processing with secure access control, PDF reports, and a responsive UI using React, Node.js, Express, and MongoDB.",
     image: "/projects/Payroll.PNG",
-    tags: ["React", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
+    tags: ["React", "Node.js", "Express.js", "MySQL", "TailwindCSS"],
     githubUrls: [
       "https://github.com/Doublezero-00/payroll-calculator-system-frontend.git",
       "https://github.com/Doublezero-00/payroll-calculator-system-backend.git",
