@@ -32,7 +32,7 @@ export default function HeroSection() {
             developing scalable, efficient, and user-friendly web applications.
           </p>
 
-          <div className=" w-[350px] md:w-full pt-4 opacity-0 animate-fade-in-delay-4 px-1">
+          <div className="flex flex-row w-[300px] md:w-full justify-center items-center pt-4 opacity-0 animate-fade-in-delay-4 px-1">
             <a href="#projects" className="cosmic-button ml-0.5">
               View My Work
             </a>
@@ -47,7 +47,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
+        <span className="text-sm text-muted-foreground"> Scroll </span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>

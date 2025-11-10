@@ -141,7 +141,7 @@ export default function SkillsSection() {
           {filteredSkills.map((skill, key) => (
             <div
               key={key}
-              className="bg-card w-[170px] md:w-[180px] h-[180px] p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 flex flex-col items-center justify-center group cursor-pointer border border-transparent hover:border-primary/40"
+              className="bg-card w-[160px] md:w-[180px] h-[180px] p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 flex flex-col items-center justify-center group cursor-pointer border border-transparent hover:border-primary/40"
             >
               <div className="flex flex-col items-center justify-center">
                 <img
