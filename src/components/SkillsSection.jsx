@@ -120,7 +120,7 @@ export default function SkillsSection() {
           My <span className="text-primary">Skills</span>
         </h2>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-row justify-center gap-0 mb-12 md:gap-4">
           {categories.map((category, key) => (
             <button
               key={key}
@@ -137,11 +137,11 @@ export default function SkillsSection() {
           ))}
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 justify-items-center">
           {filteredSkills.map((skill, key) => (
             <div
               key={key}
-              className="bg-card w-[180px] h-[180px] p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 flex flex-col items-center justify-center group cursor-pointer border border-transparent hover:border-primary/40"
+              className="bg-card w-[170px] md:w-[180px] h-[180px] p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 flex flex-col items-center justify-center group cursor-pointer border border-transparent hover:border-primary/40"
             >
               <div className="flex flex-col items-center justify-center">
                 <img

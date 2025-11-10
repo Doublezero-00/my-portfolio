@@ -10,7 +10,7 @@ import {
 export default function ContactSection() {
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
-      <div className="container mx-auto max-w-5xl relative h-[600px] flex flex-col items-center justify-center">
+      <div className="container mx-auto max-w-5xl relative h-[600px] flex flex-col items-center justify-center mt-3">
 
         <div className="text-center mb-7">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">

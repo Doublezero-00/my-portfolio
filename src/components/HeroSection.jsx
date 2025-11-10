@@ -32,14 +32,14 @@ export default function HeroSection() {
             developing scalable, efficient, and user-friendly web applications.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+          <div className=" w-[350px] md:w-full pt-4 opacity-0 animate-fade-in-delay-4 px-1">
+            <a href="#projects" className="cosmic-button ml-0.5">
               View My Work
             </a>
             <a
               href="/Chamoth_Lakshitha_CV.pdf"
               download
-              className="cosmic-button ml-[50px]"
+              className="cosmic-button ml-[30px]"
             >
               Download CV
             </a>
